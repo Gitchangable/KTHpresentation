@@ -1,14 +1,81 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>Download Site</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Webpage with PowerPoint Download</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+
+        h1 {
+            font-size: 36px;
+            margin: 0;
+        }
+
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+        }
+
+        a {
+            text-decoration: none;
+            color: #007bff;
+        }
+
+        a:hover {
+            text-decoration: underline;
+        }
+
+        .download-link {
+            text-align: center;
+            margin-top: 30px;
+        }
+
+        .download-button {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #007bff;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            font-size: 18px;
+            cursor: pointer;
+            transition: background-color 0.3s ease;
+        }
+
+        .download-button:hover {
+            background-color: #0056b3;
+        }
+    </style>
 </head>
 <body>
-    <h1>Download Page</h1>
-    <p>Click the link below to download powerpoint:</p>
-    
-    <!-- Replace 'yourfile.pdf' with the actual filename and 'Download Document' with the link text -->
-    <a href="https://Gitchangable.github.io/KTHpresentation/Presentation1.pptx" download="presentation1.pptx">Download PPT</a>
-    <a href="https://Gitchangable.github.io/KTHpresentation/Presentation1.pptx" target="_blank" />
+    <header>
+        <h1>Webpage with PowerPoint Download</h1>
+    </header>
+    <div class="container">
+        <h2>KTH presentation</h2>
+        <p>Webbsida med powerpoint.</p>
+        
+        <div class="download-link">
+            <a href="https://Gitchangable.github.io/KTHpresentation/Presentation1.pptx" download="presentation1.pptx">Download PPT</a>
+                <button class="download-button">Download PowerPoint Presentation</button>
+            </a>
+        </div>
+    </div>
 </body>
 </html>
