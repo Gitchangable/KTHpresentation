@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>KTH PowerPoint Webbsida</title>
+    <title>Webpage with PowerPoint Download</title>
     <style>
         body {
             font-family: Arial, sans-serif;
@@ -14,7 +14,7 @@
         }
 
         header {
-            background-color: #002147;
+            background-color: rgba(0, 0, 0, 0.7);
             color: #fff;
             padding: 20px;
             text-align: center;
@@ -28,7 +28,7 @@
         .container {
             max-width: 800px;
             margin: 20px auto;
-            background-color: #fff;
+            background-color: rgba(255, 255, 255, 0.9);
             padding: 20px;
             box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
         }
@@ -50,7 +50,7 @@
         .download-button {
             display: inline-block;
             padding: 10px 20px;
-            background-color: #002147;
+            background-color: #007bff;
             color: #fff;
             border: none;
             border-radius: 5px;
@@ -60,29 +60,36 @@
         }
 
         .download-button:hover {
-            background-color: #00112b;
+            background-color: #0056b3;
         }
 
-        .kth-logo {
+        .logo {
             display: block;
             margin: 0 auto;
-            max-width: 200px;
-            padding: 20px 0;
+            width: 200px;
+        }
+
+        .image-credit {
+            text-align: right;
+            font-size: 12px;
+            color: #555;
         }
     </style>
 </head>
 <body>
     <header>
-        <img class="kth-logo" src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KTH_Royal_Institute_of_Technology_logo.svg/1024px-KTH_Royal_Institute_of_Technology_logo.svg.png" alt="KTH Logo">
-        <h1>KTH PowerPoint</h1>
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/e/e0/KTH_Royal_Institute_of_Technology_logo.svg/1024px-KTH_Royal_Institute_of_Technology_logo.svg.png" alt="KTH Logo" class="logo">
+        <h1>Websida med PowerPoint Download</h1>
     </header>
     <div class="container">
         <h2>KTH presentation</h2>
-        <p>Ladda ner KTH PowerPoint presentationen.</p>
+        <p>Webbsida med PowerPoint.</p>
         
         <div class="download-link">
-            <button class="download-button" onclick="location.href='https://Gitchangable.github.io/KTHpresentation/Presentation1.pptx'" download="presentation1.pptx">Ladda ner min PowerPoint Presentation</button>
+            <button class="download-button" onclick="location.href='https://Gitchangable.github.io/KTHpresentation/Presentation1.pptx'" download="presentation1.pptx">Download PowerPoint Presentation</button>
         </div>
+        
+        <p class="image-credit">Images credit: KTH Logo - Wikipedia, Background - KTH Student Blog</p>
     </div>
 </body>
 </html>
